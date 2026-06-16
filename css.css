@@ -36,7 +36,7 @@ header {
 .header-bottom {
     display: flex;
     justify-content: center;
-    gap: 300px;
+    gap: 100px;
 }
 
 ul {
@@ -71,8 +71,8 @@ a.link {
 }
 
 .header-image {
-    width: 500px;
-    height: 200px;
+    width: 575px;
+    height: 300px;
     background-color: #858688;
     color:#E5E7EB;
     display: flex;
