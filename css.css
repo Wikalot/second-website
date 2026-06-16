@@ -51,7 +51,7 @@ ul {
     color: #F9FAF8;
 }
 
-a {
+a.link {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
@@ -178,4 +178,33 @@ a {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    height: 100px;
+    padding: 0px 80px;
+}
+
+.footer-copyright {
+    color: #E5E7EB;
+    font-size: 18px;
+    width: max-content;
+}
+
+.footer-made-by {
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+.footer-made-by-empty {
+    font-size: 18px;
+    visibility: hidden;
+}
+
+.a-image{
+    color:#858688
 }
